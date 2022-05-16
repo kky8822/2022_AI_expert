@@ -14,7 +14,10 @@ torch = {version = "*", index = "downloadpytorch"}
 torchvision = {version = "*", index = "downloadpytorch"}
 torchaudio = {version = "*", index = "downloadpytorch"}
 pandas = "*"
+scipy = "*"
+sympy = "*"
 matplotlib = "*"
+pyqt5 = "*"
 
 [dev-packages]
 ipykernel = "*"
