@@ -18,6 +18,10 @@ scipy = "*"
 sympy = "*"
 matplotlib = "*"
 pyqt5 = "*"
+imageio = "*"
+ipywidgets = "*"
+scikit-learn = "*"
+plotly = "*"
 
 [dev-packages]
 ipykernel = "*"
