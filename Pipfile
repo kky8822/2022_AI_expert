@@ -22,6 +22,11 @@ imageio = "*"
 ipywidgets = "*"
 scikit-learn = "*"
 plotly = "*"
+tensorflow = "*"
+tensorflow-probability = "*"
+apache-beam = "*"
+altair = "*"
+vega-datasets = "*"
 
 [dev-packages]
 ipykernel = "*"

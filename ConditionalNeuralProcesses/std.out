@@ -1,0 +1,24 @@
+Inputs have shape:  (10000, 512)
+equation_kwargs:  {'eta': 0.01, 'k_max': 6, 'k_min': 3, 'num_points': 512}
+Define loss from train_set
+context_x_shape:  [64, None, 1]
+context_y_shape:  [64, None, 1]
+encoder_input_shape:  [64, None, 2]
+hidden_shape:  [64, None, 128]
+representation_shape:  [64, 128]
+representation in dec:  [64, None, 128]
+target_x in Dec:  [64, None, 1]
+Decoder input shape:  [64, None, 129]
+mu in dec:  [64, None, None]
+log_sigma in dec:  [64, None, None]
+Define mu, sigma from test_set
+context_x_shape:  [1, None, 1]
+context_y_shape:  [1, None, 1]
+encoder_input_shape:  [1, None, 2]
+hidden_shape:  [1, None, 128]
+representation_shape:  [1, 128]
+representation in dec:  [1, 400, 128]
+target_x in Dec:  [1, 400, 1]
+Decoder input shape:  [1, 400, 129]
+mu in dec:  [1, 400, 1]
+log_sigma in dec:  [1, 400, 1]
