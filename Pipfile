@@ -9,7 +9,6 @@ verify_ssl = true
 name = "downloadpytorch"
 
 [packages]
-numpy = "*"
 torch = {version = "*", index = "downloadpytorch"}
 torchvision = {version = "*", index = "downloadpytorch"}
 torchaudio = {version = "*", index = "downloadpytorch"}
@@ -27,6 +26,19 @@ tensorflow-probability = "*"
 apache-beam = "*"
 altair = "*"
 vega-datasets = "*"
+numpy = "*"
+pyvirtualdisplay = "*"
+ez-setup = "*"
+pygame = "*"
+install = "*"
+pyglet = "*"
+pybullet = "*"
+gym = "*"
+torchdata = "*"
+torchtext = "*"
+spacy = "*"
+en-core-web-sm = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-2.2.0/en_core_web_sm-2.2.0.tar.gz"}
+editdistance = "*"
 
 [dev-packages]
 ipykernel = "*"
